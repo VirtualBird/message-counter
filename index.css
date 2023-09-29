@@ -1,0 +1,63 @@
+body {
+    background-image: url("Stack-of-paper2.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI',  Roboto, Oxygen, -apple-system, BlinkMacSystemFont,  Ubuntu, 'Open Sans', 'Helvetica Neue', Cantarell, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color : darkblue;
+    text-shadow: 0 0 4px lightblue;
+    
+
+}
+
+.container{
+    //background: white;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: solid darkgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 220px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: blue;
+}
+
+#increment-btn:hover
+{
+    background: lightblue;
+     color: darkblue;
+}
+
+#save-btn {
+    background: green;
+}
+
+#save-btn:hover {
+    background: lightgreen;
+    
+    color: darkgreen;
+}
+
